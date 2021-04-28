@@ -7,12 +7,12 @@ public class CustomerManager {
 	
 	
  
-	public void add(BaseLogger... baseLogger) {
+	public void add(BaseLogger... baseLoggers) {
 		
-	System.out.println("Müþteri eklendi");	
+	System.out.println("MÃ¼Ã¾teri eklendi");	
 	
-	for(BaseLogger baseLoggers:baseLogger) {
-		baseLoggers.log();
+	for(BaseLogger baseLogger:baseLoggers) {
+		baseLogger.log();
 	}
  
 	
